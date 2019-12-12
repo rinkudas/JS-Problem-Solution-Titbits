@@ -23,3 +23,8 @@ function fizzBuzz(num){
     default: return num;
   }
 }
+
+const main = [...Array(50)].map((_item,index) => fizzBuzz(index + 1));
+
+main;
+
